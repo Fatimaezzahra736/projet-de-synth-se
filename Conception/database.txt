@@ -1,0 +1,53 @@
+{
+  "stagiaires": [
+    {
+      "_id": "ObjectId",
+      "nom": "String",
+      "prenom": "String",
+      "email": "String",
+      "telephone": "String",
+      "classe": "String",
+      "qr_code": "String" 
+    }
+  ],
+  "formateurs": [
+    {
+      "_id": "ObjectId",
+      "nom": "String",
+      "prenom": "String",
+      "email": "String",
+      "telephone": "String",
+      "specialite": "String"
+    }
+  ],
+  "absences": [
+    {
+      "_id": "ObjectId",
+      "stagiaire_id": "ObjectId",
+      "formateur_id": "ObjectId",
+      "date": "Date",
+      "motif": "String",
+      "justifiee": "Boolean"
+    }
+  ],
+  "retards": [
+    {
+      "_id": "ObjectId",
+      "stagiaire_id": "ObjectId",
+      "formateur_id": "ObjectId",
+      "date": "Date",
+      "duree": "Number", 
+      "motif": "String",
+      "justifie": "Boolean"
+    }
+  ],
+  "scans_presence": [
+    {
+      "_id": "ObjectId",
+      "stagiaire_id": "ObjectId",
+      "date": "Date",
+      "heure": "String", 
+      "statut": "String" 
+    }
+  ]
+}

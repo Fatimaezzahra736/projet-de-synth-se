@@ -1,0 +1,7 @@
+Sujet 1: 
+Création d'une application de gestion d'absence et retard des stagiaires.
+Création d'une interface facile à exploiter par le service de gestion des stagiaires de l'établissement.
+Possibilité de saisie des retards et absences directement dans l'application ou d'exporter des données Excel ou même scanner les feuilles de présence.
+Création d'une interface de saisie et de suivi des absences pour les formateurs.
+Création d'une interface de suivi des absences pour les stagiaires.
+Possibilité de création des cartes avec QR code pour les stagiaires afin de faciliter la gestion.
